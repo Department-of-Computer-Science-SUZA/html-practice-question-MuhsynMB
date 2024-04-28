@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Academic Information Form</title>
+</head>
+<body>
+  <h2>Academic Information</h2>
+  <form>
+    <label for="degree">Degree:</label>
+    <input type="text" id="degree" name="degree" value="Master of Business Administration">
+    <br>
+    <label for="studentID">Student ID:</label>
+    <input type="text" id="studentID" name="studentID">
+    <br>
+    <h3>Classes Attended</h3>
+    <input type="checkbox" id="classesAttended1" name="classesAttended[]" value="Geography">
+    <label for="classesAttended1">Geography</label><br>
+    <input type="checkbox" id="classesAttended2" name="classesAttended[]" value="Mathematics">
+    <label for="classesAttended2">Mathematics</label><br>
+    <input type="checkbox" id="classesAttended3" name="classesAttended[]" value="English">
+    <label for="classesAttended3">English</label><br>
+    <h3>Personal Details</h3>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName">
+    <br>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName">
+    <br>
+    <label for="gender">Gender:</label>
+    <input type="radio" id="genderMale" name="gender" value="male">
+    <label for="genderMale">Male</label>
+    <input type="radio" id="genderFemale" name="gender" value="female">
+    <label for="genderFemale">Female</label><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <br>
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">I agree to the terms and conditions.</label><br>
+    <br>
+    <button type="submit">Send Form</button>
+    <button type="reset">Clear Form</button>
+  </form>
+</body>
+</html>
